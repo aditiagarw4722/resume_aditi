@@ -35,16 +35,16 @@ body{
     padding: 2rem 3rem;
 }
 .profile{
-    width: 100%;
+    width: 85%;
     border-bottom: 1px solid #002333;
 }
 
 .image{
-    width: 100%;
+    width: 85%;
     text-align: center;
 }
 .profile img{
-    width: 100%;
+    width: 85%;
     border-radius: 50%;
     border: 8px solid #002333;
     
@@ -69,11 +69,11 @@ body{
 }
 
 .main-title{
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 0.9px;
     color: #f7f7f7ec;
-    padding-top: 3rem;
+    padding-top: 2.8rem;
 }
 
 .contact-info ul{
@@ -116,7 +116,7 @@ body{
     border-radius: 12px;
 }
 .js-progress{
-    width: 70%;
+    width: 60%;
 }
 .ps-progress{
     width: 90%;
