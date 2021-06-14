@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculator</title>
+    </head>
+<body>
+    <div class="container">
+        <div class="calc-container">
+        <div class="row">
+            <div class="col-sm-6 " data-aos="fade">
+                <h1>Calculator</h1>
+                <input id="box" value="" type="text" readonly placeholder="0"><br/>
+                <!--<div class="btn-container" data-aos="fade">-->
+                <div class="row">
+                    <button class="btn" onclick="shownum('1')"><strong>1</strong></button>
+                    <button class="btn" onclick="shownum('2')"><strong>2</strong></button>
+                    <button class="btn" onclick="shownum('3')"><strong>3</strong></button>
+                    <button class="btn cbtn" onclick="delback()"><strong>⟸</strong></button>
+                </div> 
+                <div class=""row>
+                    <button class="btn" onclick="shownum('4')"><strong>4</strong>
+                    <button class="btn" onclick="shownum('5')"><strong>5</strong></button>
+                    <button class="btn" onclick="shownum('6')"><strong>6</strong></button>
+                    <button class="btn cbtn" onclick="delback()"><strong>del</strong></button>
+            
+                <div class="row">
+                    <button class="btn" onclick="shownum('7')"><strong>7</strong></button>
+                    <button class="btn" onclick="shownum('8')"><strong>8</strong></button>
+                    <button class="btn" onclick="shownum('9')"><strong>9</strong></button>
+                    <button class="btn" onclick="shownum('-')"><strong>-</strong></button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="shownum('.')"><strong>.</strong></button>
+                    <button class="btn" onclick="shownum('0')"><strong>0</strong></button>
+                    <button class="btn" onclick="shownum('00')"><strong>00</strong></button>
+                    <button class="btn" onclick="shownum('*')"><strong>*</strong></button>
+                </div>
+                <div class="row">
+                    <button class="btn cbtn" onclick="clearme()"><strong>C</strong></button>
+                    <button class="btn solvebtn" onclick="solve()"><strong>=</strong></button>
+                    <button class="btn" onclick="shownum('/')"><strong>/</strong></button>
+                </div>
+                <div class="row">
+                    <button class="btn" onclick="shownum('%')"><strong>%</strong></button>
+                    <button class="btn" onclick="shownum('^')"><strong>^</strong></button>
+                    <button class="btn" onclick="shownum('&')"><strong>&</strong></button>
+                    <button class="btn" onclick="shownum('@')"><strong>@</strong></button>
+
+                </div>
+            </div>
+            <footer><b>Designed by Aditi</b></footer>
+
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+    <!--<footer id ="footer"><b>Designed by Aditi</b></footer>-->
+
+    <a href="https://github.com/aditiagarw4722" target="_blank" style="color: #ffbb4f">aditi</a></footer>
+    
+</body>
+</html>
