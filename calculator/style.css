@@ -1,7 +1,11 @@
 h1 {color: #fff;}
+body{
+	background-image: url(—Pngtree—business\ calculator\ business\ technology\ blue_373711.jpg);
+	background-color:rgba(95, 209, 238, 0.867);
+}
 .container{
         margin: 0 auto;
-		background-color:rgba(95, 209, 238, 0.867);
+		
         }  
 .calc-container {
 		padding: 20px;
