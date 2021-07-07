@@ -91,6 +91,14 @@
         nextButton.style.display = 'inline-block';
         submitButton.style.display = 'none';
       }
+      if(currentSlide === slides.length+1){
+        restartButton.style.display = 'inline-block';
+        submitButton.style.display = 'none';
+      }
+      else{
+        submitButton.style.display = 'inline-block';
+        restartButton.style.display = 'none';
+      }
     }
   
     function showNextSlide() {
@@ -99,6 +107,9 @@
   
     function showPreviousSlide() {
       showSlide(currentSlide - 1);
+    }
+    function showRestartSlide(){
+      showSlide(currentSlide + 0);
     }
   
     // Variables
@@ -133,15 +144,26 @@
           d: "ESLint"
         },
         correctAnswer: "d"
-      }
+      },
+    {
+      question: "Which is the best framework?",
+      answers: {
+        a: "bootstrap",
+        b: "Node Js",
+        c: "Angular",
+        d: "React",
+
+      },
+      correctAnswer: "c" 
+    }
     ];
-  
     // Kick things off
     buildQuiz();
   
     // Pagination
     const previousButton = document.getElementById("previous");
     const nextButton = document.getElementById("next");
+    const restartButton = document.getElementById("restart");
     const slides = document.querySelectorAll(".slide");
     let currentSlide = 0;
   
@@ -152,5 +174,6 @@
     submitButton.addEventListener('click', showResults);
     previousButton.addEventListener("click", showPreviousSlide);
     nextButton.addEventListener("click", showNextSlide);
+    restartButton.addEventListener("click",showRestartSlide);
   })();
   
