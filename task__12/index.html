@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>TO-DO-LIST</title>
+</head>
+<body>
+    <ul id="container">  
+        <h1 class="ToDo"> To-DO-LIST</h1>
+    <p>
+        <label for="new-task"></label>
+        <input id="new-task" type="text">
+        <span onclick="newElement();" class="btn btn-outline-primary">Add</span>
+      </p>
+    <br>
+    <ul id="TO-DO">
+        <h2 class="ToDo">Shopping List</h2>
+        <ul id="incomplete-tasks"></ul>
+        <li class="editMode">
+            <input type="checkbox">
+            <label> </label>
+            <input type="text">
+            <button class="edit">Edit</button>
+            <button class="delete">Delete</button></li>
+            <br>
+        </li>
+        <li class="editMode">
+            <input type="checkbox">
+            <labe<l> </label>
+                <input type="text">
+                <button class="edit">Edit</button>
+                <button class="delete">Delete</button>
+            </li>
+            <br>
+            <li class="editMode">
+                <input type="checkbox">
+                <labe<l> </label>
+                    <input type="text">
+                    <button class="edit">Edit</button>
+                    <button class="delete">Delete</button>
+                </li>
+                <br>
+                <li class="editMode">
+                    <input type="checkbox">
+                    <labe<l> </label>
+                        <input type="text">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </li>
+                    <br>
+                    <li class="editMode">
+                        <input type="checkbox">
+                        <labe<l> </label>
+                            <input type="text">
+                            <button class="edit">Edit</button>
+                            <button class="delete">Delete</button>
+                        </li>
+                        <br>
+                        <li class="editMode">
+                            <input type="checkbox">
+                            <labe<l> </label>
+                                <input type="text">
+                                <button class="edit">Edit</button>
+                                <button class="delete">Delete</button>
+                            </li>
+                            <br>
+                            <li class="editMode">
+                                <input type="checkbox">
+                                <labe<l> </label>
+                                    <input type="text">
+                                    <button class="edit">Edit</button>
+                                    <button class="delete">Delete</button>
+                                </li>
+                                <br>
+        <span onclick="newElement();" class="btn btn-primary">clear All</span>
+    </ul>
+    <script src="script.js"></script>
+</body>
+</html>
