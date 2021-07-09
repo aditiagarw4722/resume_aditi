@@ -1,0 +1,35 @@
+*
+{
+    padding: 1em;
+    background-color:burlywood;
+    
+}
+body{
+    padding: 1em; 
+}
+.heading
+{
+      padding-top: 1em;
+      padding-bottom: 1em;
+}
+button
+{
+    margin: 1.5em;
+    margin-left: 0%;
+}
+.btn-primary
+{
+    background-color: blueviolet ;
+    padding: 0.8em;
+    
+}
+.btn-primary:hover
+{
+    background-color: #fff;
+    color:blueviolet;
+    
+}
+.social-icons .btn-primary
+{
+    border-radius: 50%;
+}
