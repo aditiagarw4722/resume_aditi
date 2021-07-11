@@ -34,3 +34,26 @@ img{
     background-color: rgba(0,0,0,0.3);
     margin: 0 auto;
 }
+
+.fullwidth {
+    width: 100%;
+    max-width: 500px;
+    max-height: 800px;
+    color: #ffffff;
+    background-color: #fcf5f5;
+  }
+  
+#imgFile {
+    display: sans-serif;
+  }
+  h3,p{
+      color:rgb(247, 246, 253)
+  }
+  input[type='text'], input[type='range'] {
+    width: 100%;
+    color: #f0eaea;
+  }
+  
+  h3 > i.fa {
+    margin-right: .2em;
+  }

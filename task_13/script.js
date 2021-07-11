@@ -18,3 +18,16 @@ function show(){
         })
         .catch(error => console.log(error))
 }
+document.getElementById('imgURL').oninput = function(ev) {
+    image.src = this.value;
+  };
+  
+  document.getElementById('imgFile').onchange = function(ev) {
+    var reader = new FileReader();
+    reader.onload = function(ev) {
+      image.src = reader.result;
+    };
+    reader.readAsDataURL(this.files[0]);
+  };
+  ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+  
