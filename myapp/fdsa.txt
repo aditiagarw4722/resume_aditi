@@ -1,0 +1,5 @@
+JSX
+JSX -> JSX -> JS
+HTML -> JSX 
+Styling with CSS
+REACT PROPS
