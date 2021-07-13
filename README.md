@@ -23,4 +23,5 @@ live Link: https://aditiagarw4722.github.io/resume_aditi/
 |14|[Tha 14-EventListener-Potter Jump](https://aditiagarw4722.github.io/resume_aditi/taSK__14/index.html) |
 |15|[Tha 15-HelloWorld-react](https://aditiagarw4722.github.io/resume_aditi/task_15/index.html) |
 |17|[Tha 17-Calorie Reader](https://aditiagarw4722.github.io/resume_aditi/build/5501/index.html) |
+|18|[Tha 18-Chess board](https://aditiagarw4722.github.io/resume_aditi/task__18/chess%20board/build/index.html) |
 </center>
