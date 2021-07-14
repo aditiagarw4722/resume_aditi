@@ -1,17 +1,42 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import React, { Component } from "react";
+import Button from "./components/Button";
+import "./assets/css/style.css";
+export default class App extends Component {
+  constructor() {
+    super();
+    this.state = {
+      count: 0
+    };
+  }
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+  incrementCount = () => {
+    this.setState({
+      count: this.state.count + 1
+    });
+  };
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  decrementCount = () => {
+    this.setState({
+      count: this.state.count - 1
+    });
+  };
+
+  render() {
+    let { count } = this.state;
+    return (
+      <div className="app">
+        <div>
+          <div class="count">
+            <h3>Count:</h3>
+            <h1>{count}</h1>
+          </div>
+          <div class="buttons">
+            <Button title={"-"} action={this.decrementCount} />
+            <Button title={"+"} action={this.incrementCount} />
+          </div>
+        </div>
+      </div>
+    );
+  }
+}
