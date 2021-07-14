@@ -1,4 +1,3 @@
-import reportWebVitals from './reportWebVitals';
 import React, { Component } from "react";
 import Button from "./components/Button";
 import "./assets/css/style.css";
