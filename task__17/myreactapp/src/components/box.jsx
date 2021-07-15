@@ -1,14 +1,15 @@
 import Card from './card'
+import CardVal from './card_data'
+import {useState} from 'react'
 const Box=()=>{
+    const [value,setValue]=useState(CardVal)
+    // console.log(value)
+    const CardComponents=value.map(values=>
+        <Card key={values.id} title={values.title} detail={values.detail} setValue={setValue} index={values.id} game={value} checker={values.checker}/>
+    )
     return (
         <div className="box">
-            <Card title="cheeze" detail="you have consumed 56 cals today"/>
-            <Card title="Momos" detail="you have consumed 69 cals today"/>
-            <Card title="fanta" detail="you have consumed 500 cals today"/>
-            <Card title="machurian" detail="you have consumed 180 cals today"/>
-            <Card title="maggie" detail="you have consumed 90 cals today"/>
-            <Card title="chole" detail="you have consumed 200 cals today"/>
-            <Card title="Sandwich" detail="you have consumed 10 cals today"/>
+            {CardComponents}
         </div>
     );
 }
