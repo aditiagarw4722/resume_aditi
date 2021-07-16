@@ -15,7 +15,7 @@ live Link: https://aditiagarw4722.github.io/resume_aditi/
 | 6 | [Tha 6-Array assignment](https://aditiagarw4722.github.io/resume_aditi/task6/index.html) |
 | 7 |  [Tha 7-Object Assignment](https://aditiagarw4722.github.io/resume_aditi/task_7/index.html) |
 |8 | [Tha 8-100daycss](https://aditiagarw4722.github.io/resume_aditi/task_8/index.html) |
-|9| [Tha 9-box_dom](task_9/index.html)|
+|9| [Tha 9-box_dom](https://aditiagarw4722.github.io/resume_aditi/task_9/index.html)|
 |10|[Tha 10-Memory_Game](https://aditiagarw4722.github.io/resume_aditi/task__10/index.html)|
 |11|[Tha 11-Js_Quiz](https://aditiagarw4722.github.io/resume_aditi/task_11/index.html)|
 |12|[Tha 12-ToDo-app](https://aditiagarw4722.github.io/resume_aditi/task__12/index.html)|
