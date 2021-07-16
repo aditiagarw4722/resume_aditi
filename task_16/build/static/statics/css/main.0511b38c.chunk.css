@@ -1,0 +1,1 @@
+*{box-sizing:border-box;padding:0;margin:0}.card{padding:10px;background-color:#789;border-radius:5px}.card,.card>img{display:flex;margin:auto}.card>img{width:auto;height:300px}.page{display:flex;margin:auto;height:100vh}
