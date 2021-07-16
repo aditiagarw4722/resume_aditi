@@ -1,7 +1,7 @@
 const data=[
     {
  id :1,
- title : 'cheeze',
+ title : "cheeze",
 detail: 56,
 checker: false
 },
